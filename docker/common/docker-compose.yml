@@ -1,6 +1,6 @@
 version: '2'
 services:
   licensingservice:
-      image: msa/tmx-licensing-service
+      image: msa/tmx-licensing-service:license
       ports:
         - "8080:8080"

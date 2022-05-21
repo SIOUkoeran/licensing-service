@@ -18,8 +18,9 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <start-class>com.example.licensingservice.LicensingServiceApplication</start-class>
-        <docker.image.name>/tmx-licensing-service</docker.image.name>
-        <docker.image.tag>main</docker.image.tag>
+        <docker.image.name>msa/tmx-licensing-service</docker.image.name>
+        <docker.image.tag>license</docker.image.tag>
+
     </properties>
     <dependencies>
         <dependency>
